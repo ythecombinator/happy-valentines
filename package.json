@@ -1,0 +1,50 @@
+{
+  "name": "happy-valentines",
+  "version": "0.1.0",
+  "description": "Simple module to show your love on this Valentine's Day.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "setup": "npm install -g livescript mocha",
+    "compile": "lsc --no-header -b -c -o ./ src",
+    "test": "mocha --compilers ls:livescript",
+    "build": "npm run compile && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mabrasil/happy-valentines"
+  },
+  "keywords": [
+    "Love",
+    "Valentine",
+    "Valentine's day",
+    "Terminal",
+    "Console",
+    "CLI"
+  ],
+  "author": {
+    "name": "Matheus Brasil",
+    "email": "matheus.brasil10@gmail.com",
+    "url": "https://github.com/mabrasil/happy-valentines"
+  },
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/mabrasil/happy-valentines/issues"
+  },
+  "homepage": "https://github.com/mabrasil/happy-valentines",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "iniparser": "^1.0.5",
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
