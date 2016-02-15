@@ -10,11 +10,11 @@
 
 <p align="center">
 
-  <a href="https://codeship.com/projects/"><img alt="Build Status" src="https://codeship.com/projects"></a>
+  <a href="https://codeship.com/projects/134139"><img alt="Build Status" src="https://codeship.com/projects/e93be640-b5a4-0133-a229-724fe1788ad4/status?branch=master"></a>
 
   <a href="https://travis-ci.org/mabrasil/happy-valentines"><img alt="Build Status" src="https://travis-ci.org/mabrasil/happy-valentines.svg?branch=master"></a>
 
-  <a href="https://codeclimate.com/github/mabrasil/happy-valentines"><img alt="Code Climate" src="https://codeclimate.com/github/mabrasil/happy-valentines/badges/gpa.svg"/></a>
+  <a href="https://codeclimate.com/github/mabrasil/happy-valentines"><img src="https://codeclimate.com/github/mabrasil/happy-valentines/badges/gpa.svg"></a>
 
   <a href="https://david-dm.org/mabrasil/happy-valentines" title="Dependency status"><img src="https://david-dm.org/mabrasil/happy-valentines.svg"/></a>
 
