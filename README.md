@@ -26,6 +26,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [How it Works](#how-it-works)
 - [Development](#development)
 - [Contributing](#contributing)
 - [Motivation](#motivation)
@@ -47,6 +48,9 @@ $ npm install -g happy-valentines
 ```
 
 ## Usage
+
+> Send this project to whom you **love** and as soon as the person installs and
+runs, it will wish that special person a *happy Valentine's Day*.
 
 ### Node
 
@@ -103,6 +107,12 @@ $ happy-valentines
 |-------------|----------------------------------------------|
 | `--help`    | Shows project description and how to use it. |
 | `--version` | Displays the current version.                |
+
+## How it Works
+
+*happy-valentines* tries to guess the person's name by reading the local
+`.gitconfig` file. If the person doesn't use *Git*, *happy-valentines* just
+treats as `My Anonymous Beloved`.
 
 ## Development
 
