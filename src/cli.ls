@@ -4,7 +4,7 @@
 
 require! {
   meow
-  './' : valentines
+  './': valentines
 }
 
 cli = meow {help: [
