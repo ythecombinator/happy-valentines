@@ -50,7 +50,7 @@ $ npm install -g happy-valentines
 ## Usage
 
 > Send this project to whom you **love** and as soon as the person installs and
-runs, it will wish that special person a *happy Valentine's Day*.
+runs, it will wish that special person a *Happy Valentine's Day*.
 
 ### Node
 
@@ -63,7 +63,7 @@ runs, it will wish that special person a *happy Valentine's Day*.
 ```js
 const valentines = require('happy-valentines');
 
-console.log(valentines())
+console.log(valentines());
 
 
 /* =>
@@ -137,9 +137,9 @@ Contributions are very welcome! If you'd like to contribute, these
 
 ## Motivation
 
-You know what they say: *love is the air*
+You know what they say: *love is in the air*
 
-¯\_(ツ)_/¯
+¯\\_(ツ)_/¯
 
 ## License
 
