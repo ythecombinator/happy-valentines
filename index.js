@@ -12,7 +12,9 @@ module.exports = function(){
     ? process.env.USERPROFILE
     : process.env.HOME || process.env.HOMEPATH;
   gitConfigFile = path.join(homeDir, '.gitconfig');
-  user = fs.existsSync(gitConfigFile) ? parser.parseSync(gitConfigFile).user.name : 'My Anonymous Beloved';
+  user = fs.existsSync(gitConfigFile) ? function(it){
+    return it.user.name;
+  }(parser.parseSync(gitConfigFile)) : 'My Anonymous Beloved';
   heart = uniqueRandomArray(hearts);
   return colors.red('\n' + heart().join('')) + colors.gray('\n Happy Valentine\'s Day, dear ' + colors.red(user + colors.gray('.')));
 };
