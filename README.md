@@ -139,7 +139,7 @@ Contributions are very welcome! If you'd like to contribute, these
 
 You know what they say: *love is the air*
 
-¯\_(ツ)_/¯
+¯\\\_(ツ)_/¯
 
 ## License
 
