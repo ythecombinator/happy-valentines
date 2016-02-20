@@ -49,21 +49,21 @@ $ npm install -g happy-valentines
 
 ## Usage
 
-> Send this project to whom you **love** and as soon as the person installs and
-runs, it will wish that special person a *Happy Valentine's Day*.
-
-### Node
-
 <p align="center">
   <a href="">
     <img alt="Screenshot" src="http://i.imgur.com/1OMZr5k.png" width="900px">
   </a>
 </p>
 
+> Send this project to whom you **love** and as soon as the person installs and
+runs, it will wish that special person a *Happy Valentine's Day*.
+
+### Node
+
 ```js
 const valentines = require('happy-valentines');
 
-console.log(valentines());
+valentines();
 
 
 /* =>
@@ -107,12 +107,6 @@ $ happy-valentines
 |-------------|----------------------------------------------|
 | `--help`    | Shows project description and how to use it. |
 | `--version` | Displays the current version.                |
-
-## How it Works
-
-*happy-valentines* tries to guess the person's name by reading the local
-`.gitconfig` file. If the person doesn't use *Git*, *happy-valentines* just
-treats as `My Anonymous Beloved`.
 
 ## Development
 
