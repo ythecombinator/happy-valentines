@@ -42,7 +42,8 @@
     "chalk": "^1.1.1",
     "iniparser": "^1.0.5",
     "meow": "^3.7.0",
-    "unique-random-array": "^1.0.0"
+    "unique-random-array": "^1.0.0",
+    "fullname": "^3.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0"

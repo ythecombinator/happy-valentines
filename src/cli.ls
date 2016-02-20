@@ -45,4 +45,4 @@ cli = meow {help: [
   ''
 ]}
 
-console.log valentines!
+valentines!
