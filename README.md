@@ -26,7 +26,6 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [How it Works](#how-it-works)
 - [Development](#development)
 - [Contributing](#contributing)
 - [Motivation](#motivation)
