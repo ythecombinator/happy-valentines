@@ -1,20 +1,18 @@
 'use strict';
-var fs, path, parser, colors, uniqueRandomArray, hearts;
+var fs, path, parser, colors, uniqueRandomArray, fullname, hearts;
 fs = require('fs');
 path = require('path');
 parser = require('iniparser');
 colors = require('chalk');
 uniqueRandomArray = require('unique-random-array');
+fullname = require('fullname');
 hearts = require('./hearts.json');
 module.exports = function(){
-  var homeDir, gitConfigFile, user, heart;
-  homeDir = process.platform === 'win32'
-    ? process.env.USERPROFILE
-    : process.env.HOME || process.env.HOMEPATH;
-  gitConfigFile = path.join(homeDir, '.gitconfig');
-  user = fs.existsSync(gitConfigFile) ? function(it){
-    return it.user.name;
-  }(parser.parseSync(gitConfigFile)) : 'My Anonymous Beloved';
+  var heart;
   heart = uniqueRandomArray(hearts);
-  return colors.red('\n' + heart().join('')) + colors.gray('\n Happy Valentine\'s Day, dear ' + colors.red(user + colors.gray('.')));
+  console.log(colors.red('\n' + heart().join('')));
+  console.log(colors.gray('\n Happy Valentine\'s Day, dear '));
+  return fullname().then(function(name){
+    return console.log(colors.red(name) + colors.gray('.'));
+  });
 };
