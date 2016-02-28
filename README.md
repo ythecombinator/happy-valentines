@@ -118,8 +118,7 @@ Here is a summary of all the commands:
 
 |  **Command**  |                                     **Description**                                      |
 |---------------|------------------------------------------------------------------------------------------|
-| `setup`       | Installs global Node dependencies needed for development.                                |
-| `compile`     | Runs the Livescript compile on the source.                                               |
+| `compile`     | Runs the Livescript compiler on the source.                                              |
 | `test`        | Runs [Mocha](https://mochajs.org/) in BDD mode.                                          |
 | `build`       | Runs both `compile` and `test` commands.                                                 |
 

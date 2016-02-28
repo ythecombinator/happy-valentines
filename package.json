@@ -8,7 +8,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "setup": "npm install -g livescript mocha",
     "compile": "lsc --no-header -b -c -o ./ src",
     "test": "mocha --compilers ls:livescript",
     "build": "npm run compile && npm run test"
@@ -46,6 +45,8 @@
     "fullname": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "livescript": "^1.4.0",
+    "mocha": "^2.4.5"
   }
 }
